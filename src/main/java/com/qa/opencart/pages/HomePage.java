@@ -3,7 +3,6 @@ package com.qa.opencart.pages;
 import com.microsoft.playwright.Page;
 
 public class HomePage {
-
     private Page page;
 
     // 1. here locators should be declared in string
