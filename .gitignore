@@ -3,5 +3,5 @@ target/
 **.idea/
 .idea/*
 *.iml
-test-output
-screenshot
+test-output/
+screenshot/
