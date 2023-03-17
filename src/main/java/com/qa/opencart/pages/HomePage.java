@@ -10,7 +10,6 @@ public class HomePage {
     private String searchIcon = "div#search button"; //css selector
     private String searchPageHeader = "div#content h1"; //css selector
 
-
     // 2. page constructor
     public HomePage(Page page)
     {
