@@ -22,7 +22,6 @@ public class LoginPage {
       page.click(loginBtnlink);
 
   }
-
     public String loginPageTitle()
     {
         return page.title();
