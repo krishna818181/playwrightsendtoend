@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open Cart Test Regression PlayWright Suite" duration-ms="20142" started-at="2023-03-16T07:04:27Z" finished-at="2023-03-16T07:04:47Z">
+    <groups>
+    </groups>
+    <test name="open cart home page test" duration-ms="17507" started-at="2023-03-16T07:04:27Z" finished-at="2023-03-16T07:04:44Z">
+      <class name="com.qa.opencart.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="setup" is-config="true" duration-ms="11401" started-at="2023-03-16T07:04:27Z" finished-at="2023-03-16T07:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="homePageTitleTest" duration-ms="69" started-at="2023-03-16T07:04:38Z" finished-at="2023-03-16T07:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="homePageUlrTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="homePageUlrTest" duration-ms="6" started-at="2023-03-16T07:04:39Z" finished-at="2023-03-16T07:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageUlrTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="searchTest" duration-ms="856" started-at="2023-03-16T07:04:40Z" data-provider="getProductData" finished-at="2023-03-16T07:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="searchTest" duration-ms="2416" started-at="2023-03-16T07:04:41Z" data-provider="getProductData" finished-at="2023-03-16T07:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.HomePageTest@24b1d79b]" name="tearDown" is-config="true" duration-ms="284" started-at="2023-03-16T07:04:44Z" finished-at="2023-03-16T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.HomePageTest -->
+    </test> <!-- open cart home page test -->
+    <test name="open cart login page" duration-ms="20137" started-at="2023-03-16T07:04:27Z" finished-at="2023-03-16T07:04:47Z">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@57f23557]" name="setup" is-config="true" duration-ms="14111" started-at="2023-03-16T07:04:27Z" finished-at="2023-03-16T07:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageNavigationTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@57f23557]" name="loginPageNavigationTest" duration-ms="2284" started-at="2023-03-16T07:04:41Z" finished-at="2023-03-16T07:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method status="PASS" signature="checkForgotPassword_LinkExists()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@57f23557]" name="checkForgotPassword_LinkExists" duration-ms="72" started-at="2023-03-16T07:04:44Z" finished-at="2023-03-16T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForgotPassword_LinkExists -->
+        <test-method status="PASS" signature="userLoginIn()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@57f23557]" name="userLoginIn" duration-ms="1946" started-at="2023-03-16T07:04:44Z" finished-at="2023-03-16T07:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@57f23557]" name="tearDown" is-config="true" duration-ms="276" started-at="2023-03-16T07:04:47Z" finished-at="2023-03-16T07:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- open cart login page -->
+  </suite> <!-- Open Cart Test Regression PlayWright Suite -->
+</testng-results>
